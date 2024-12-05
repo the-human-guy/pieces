@@ -12,11 +12,21 @@ const imgSearchPreviewLinkSelector = `.trXfzf a[jsaction]:not([uncucked])`
 
 // set en lang and remove safesearch filter (unblur imgs)
 let url = window.location.href;
-const safe = "&safe=off&hl=en";
+const safe = "safe=off";
+const lang = "hl=en";
+
 if (!url.includes(safe)) {
-  url += safe;
+  url += '&' + safe;
+}
+
+if (!url.includes(lang)) {
+  url += '&' + lang;
+}
+
+if (window.location.href !== url) {
   window.location = url;
 }
+
 
 // make links clickable without warnings
 const uncuckLinks = () => {
