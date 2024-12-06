@@ -33,14 +33,14 @@ const uncuckLinks = () => {
   // links that are leading to google's warning page "Are you sure you want to foolow this link etc etc"
   document.querySelectorAll(imgSearchGatedLinkSelector).forEach((link, i) => {
     link.href = unescape(link.href.split('url=')[1])
-    link.style.backgroundColor = 'green'
+    link.style.textShadow = '0 0 3px green'
   })
 
   // links which href will be transformed from legit to gated on focus or click.
   document.querySelectorAll(imgSearchPreviewLinkSelector).forEach((link, i) => {
     const newLink = link.cloneNode(true); // true means children too
     newLink.removeAttribute('jsaction')
-    newLink.style.backgroundColor = 'greenyellow'
+    newLink.style.textShadow = '0 0 3px greenyellow'
     newLink.setAttribute('uncucked', true)
     link.parentNode.replaceChild(newLink, link);
   })
