@@ -3,7 +3,7 @@
 // @description    Default to safe=off, english lang, fix links
 // @include        http*://*.google.*/search*
 // @include        http://*.google.*/imgres*
-// @version        1.01
+// @version        1.02
 // @grant          none
 // ==/UserScript==
 
