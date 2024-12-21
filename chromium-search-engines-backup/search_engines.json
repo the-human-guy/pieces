@@ -5,6 +5,11 @@
     "url": "https://blockchair.com/search?q=%s"
   },
   {
+    "name": "blochain.com",
+    "keyword": "btc",
+    "url": "https://www.blockchain.com/explorer/search?search=%s"
+  },
+  {
     "name": "Bookmarks",
     "keyword": "@bookmarks",
     "url": "brave://bookmarks/?q=%s"
