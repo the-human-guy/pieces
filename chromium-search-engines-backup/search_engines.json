@@ -10,6 +10,11 @@
     "url": "https://www.blockchain.com/explorer/search?search=%s"
   },
   {
+    "name": "Wikipedia en",
+    "keyword": "wiki",
+    "url": "https://en.wikipedia.org/w/index.php?search=%s"
+  },
+  {
     "name": "Bookmarks",
     "keyword": "@bookmarks",
     "url": "brave://bookmarks/?q=%s"
