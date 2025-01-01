@@ -8,6 +8,17 @@
 // @description 8/30/2021, 6:23:12 PM
 // ==/UserScript==
 
+var TTP = window.TTP = {createHTML: (string, sink) => string, createScript: (string, sink) => string, createScriptURL: (string, sink) => string};
+if(typeof window.isSecureContext !== 'undefined' && window.isSecureContext){
+    if (window.trustedTypes && window.trustedTypes.createPolicy){
+        if(window.trustedTypes.defaultPolicy) {
+            TTP = window.TTP = window.trustedTypes.defaultPolicy;
+        } else {
+            TTP = window.TTP = window.trustedTypes.createPolicy("default", TTP);
+        }
+    }
+}
+
 function addStyle(styleString) {
     const style = document.createElement('style');
     style.textContent = styleString;
@@ -24,10 +35,11 @@ addStyle(`
 
 
 /*
-    Make row delete button always visible (not just :onhover).
-    And hide the other row buttons.
+  Make row delete button always visible (not just :onhover).
+  And hide the other row buttons.
 */
 addStyle(`
+
     .bq4.xY {
         display: flex !important;
     }
