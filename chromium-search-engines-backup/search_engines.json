@@ -20,12 +20,17 @@
     "url": "brave://bookmarks/?q=%s"
   },
   {
-    "name": "bre",
+    "name": "brave reddit",
     "keyword": "bre",
     "url": "https://search.brave.com/search?q=site%3Areddit.com+%s"
   },
   {
-    "name": "dex",
+    "name": "brave ycombinator",
+    "keyword": "byc",
+    "url": "https://search.brave.com/search?q=site%3Aycombinator.com+%s"
+  },
+  {
+    "name": "dexscreener",
     "keyword": "dex",
     "url": "https://dexscreener.com/search?q=%s"
   },
@@ -35,14 +40,19 @@
     "url": "https://etherscan.io/search?f=0&q=%s"
   },
   {
-    "name": "gimg",
+    "name": "google images",
     "keyword": "gimg",
     "url": "https://www.google.com/search?q=%s&safe=off&hl=en&udm=2"
   },
   {
-    "name": "gre",
+    "name": "google reddit",
     "keyword": "gre",
     "url": "https://www.google.com/search?q=site:reddit.com+%s&safe=off&hl=en"
+  },
+  {
+    "name": "google ycombinator",
+    "keyword": "gyc",
+    "url": "https://www.google.com/search?q=site:ycombinator.com+%s&safe=off&hl=en"
   },
   {
     "name": "History",
@@ -50,7 +60,7 @@
     "url": "brave://history/?q=%s"
   },
   {
-    "name": "maps",
+    "name": "google maps",
     "keyword": "maps",
     "url": "https://www.google.com/maps/search/%s/?hl=en"
   },
@@ -65,7 +75,7 @@
     "url": "brave://tabs/?q=%s"
   },
   {
-    "name": "tr",
+    "name": "google translate",
     "keyword": "tr",
     "url": "https://translate.google.com/?sl=auto&tl=en&text=%s&op=translate"
   },
@@ -80,7 +90,7 @@
     "url": "https://tronscan.org/#/transaction/%s"
   },
   {
-    "name": "you",
+    "name": "youtube",
     "keyword": "you",
     "url": "https://www.youtube.com/results?search_query=%s"
   }
