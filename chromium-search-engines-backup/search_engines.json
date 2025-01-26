@@ -93,5 +93,10 @@
     "name": "youtube",
     "keyword": "you",
     "url": "https://www.youtube.com/results?search_query=%s"
+  },
+  {
+    "name": "imdb",
+    "keyword": "imdb",
+    "url": "https://www.imdb.com/find/?q=%s"
   }
 ]
