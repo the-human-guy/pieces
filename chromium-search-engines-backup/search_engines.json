@@ -20,6 +20,11 @@
     "url": "brave://bookmarks/?q=%s"
   },
   {
+    "name": "brave",
+    "keyword": "b",
+    "url": "https://search.brave.com/search?q=%s"
+  },
+  {
     "name": "brave reddit",
     "keyword": "bre",
     "url": "https://search.brave.com/search?q=site%3Areddit.com+%s"
@@ -38,6 +43,16 @@
     "name": "etherscan",
     "keyword": "eth",
     "url": "https://etherscan.io/search?f=0&q=%s"
+  },
+  {
+    "name": "duckduckgo",
+    "keyword": "d",
+    "url": "https://duckduckgo.com/?q=%s"
+  },
+  {
+    "name": "google",
+    "keyword": "g",
+    "url": "https://www.google.com/search?q=%s&safe=off&hl=en"
   },
   {
     "name": "google images",
@@ -98,5 +113,10 @@
     "name": "imdb",
     "keyword": "imdb",
     "url": "https://www.imdb.com/find/?q=%s"
+  },
+  {
+    "name": "yandex",
+    "keyword": "ya",
+    "url": "https://yandex.com/search?text=%s"
   }
 ]
