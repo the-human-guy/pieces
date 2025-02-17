@@ -1,23 +1,18 @@
 [
   {
-    "name": "blockchair",
-    "keyword": "chair",
-    "url": "https://blockchair.com/search?q=%s"
+    "name":"wayback machine",
+    "keyword":"wayback",
+    "url":"https://web.archive.org/web/*/%s"
   },
   {
-    "name": "blochain.com",
-    "keyword": "btc",
-    "url": "https://www.blockchain.com/explorer/search?search=%s"
+    "name":"soundcloud",
+    "keyword":"sound",
+    "url":"https://soundcloud.com/search?q=%s"
   },
   {
     "name": "Wikipedia en",
     "keyword": "wiki",
     "url": "https://en.wikipedia.org/w/index.php?search=%s"
-  },
-  {
-    "name": "Bookmarks",
-    "keyword": "@bookmarks",
-    "url": "brave://bookmarks/?q=%s"
   },
   {
     "name": "brave",
@@ -35,6 +30,16 @@
     "url": "https://search.brave.com/search?q=site%3Aycombinator.com+%s"
   },
   {
+    "name":"brave 4chan",
+    "keyword":"br4",
+    "url":"https://search.brave.com/search?q=%s+site%3A4chanarchives.com+OR+site%3A4chan.org&oq=%s+site%3A4chan.org&source=desktop"
+  },
+  {
+    "name":"brave youtube",
+    "keyword":"bryou",
+    "url":"https://search.brave.com/search?q=%s+site%3Ayoutube.com&source=web"
+  },
+  {
     "name": "dexscreener",
     "keyword": "dex",
     "url": "https://dexscreener.com/search?q=%s"
@@ -48,6 +53,11 @@
     "name": "duckduckgo",
     "keyword": "d",
     "url": "https://duckduckgo.com/?q=%s"
+  },
+  {
+    "name":"duck youtube",
+    "keyword":"dyou",
+    "url":"https://duckduckgo.com/?q=%s+site%3Ayoutube.com&t=brave&ia=web"
   },
   {
     "name": "google",
@@ -70,14 +80,19 @@
     "url": "https://www.google.com/search?q=site:ycombinator.com+%s&safe=off&hl=en"
   },
   {
-    "name": "History",
-    "keyword": "@history",
-    "url": "brave://history/?q=%s"
+    "name":"google 4chan",
+    "keyword":"g4",
+    "url":"https://www.google.com/search?q=%s+site%3A4chanarchives.com+OR+site%3A4chan.org&oq=%s+site%3A4chan.org"
+  },
+  {
+    "name":"google youtube",
+    "keyword":"gyou",
+    "url":"https://www.google.com/search?q=%s+site%3Ayoutube.com&oq=%s+site%3Ayoutube.com"
   },
   {
     "name": "google maps",
     "keyword": "maps",
-    "url": "https://www.google.com/maps/search/%s/?hl=en"
+    "url": "https://www.google.com/maps/search/%s/?hl=en&safe=off"
   },
   {
     "name": "rarbg",
@@ -85,9 +100,24 @@
     "url": "https://www.rarbgproxy.to/search/?search=%s"
   },
   {
-    "name": "Tabs",
-    "keyword": "@tabs",
-    "url": "brave://tabs/?q=%s"
+    "name":"the pirate bay",
+    "keyword":"tpb",
+    "url":"https://tpb.party/search/%s"
+  },
+  {
+    "name":"kick ass torrents",
+    "keyword":"kat",
+    "url":"https://kickasstorrents.to/search/%s/category/movies/?sortby=seeders&sort=desc"
+  },
+  {
+    "name":"1337x",
+    "keyword":"1337",
+    "url":"https://www.1337xx.to/search/%s/1/"
+  },
+  {
+    "name":"rutracker.org",
+    "keyword":"rutr",
+    "url":"https://rutracker.org/forum/tracker.php?nm=%s"
   },
   {
     "name": "google translate",
@@ -105,6 +135,16 @@
     "url": "https://tronscan.org/#/transaction/%s"
   },
   {
+    "name": "blockchair",
+    "keyword": "chair",
+    "url": "https://blockchair.com/search?q=%s"
+  },
+  {
+    "name": "blochain.com",
+    "keyword": "btc",
+    "url": "https://www.blockchain.com/explorer/search?search=%s"
+  },
+  {
     "name": "youtube",
     "keyword": "you",
     "url": "https://www.youtube.com/results?search_query=%s"
@@ -115,8 +155,28 @@
     "url": "https://www.imdb.com/find/?q=%s"
   },
   {
+    "name":"aur.archlinux.org",
+    "keyword":"aur",
+    "url":"https://aur.archlinux.org/packages/?O=0&K=%s"
+  },
+  {
     "name": "yandex",
     "keyword": "ya",
     "url": "https://yandex.com/search?text=%s"
+  },
+  {
+    "name": "Tabs",
+    "keyword": "@tabs",
+    "url": "brave://tabs/?q=%s"
+  },
+  {
+    "name": "History",
+    "keyword": "@history",
+    "url": "brave://history/?q=%s"
+  },
+  {
+    "name": "Bookmarks",
+    "keyword": "@bookmarks",
+    "url": "brave://bookmarks/?q=%s"
   }
 ]
