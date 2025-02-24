@@ -20,9 +20,13 @@ if (location.host.startsWith('www.')) {
 
 // replace www. with old. in all links on the page
 function oldifyLinks() {
-  document.querySelectorAll('a[href*="www.reddit"]').forEach(link => link.href = link.href.replace('www.', 'old.'))
+  const links = document.querySelectorAll('a[href*="www.reddit"]')
+  console.log('oldifyLinks: ', links)
+  links.forEach(link => link.href = link.href.replace('www.', 'old.'))
 }
 
-oldifyLinks()
+if (location.host.startsWith('old.')) {
+  oldifyLinks()
 
-setInterval(oldifyLinks, 7000)
+  setInterval(oldifyLinks, 7000)
+}
