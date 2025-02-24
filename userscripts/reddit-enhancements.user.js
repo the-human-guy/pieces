@@ -10,12 +10,12 @@
 
 if (location.host.startsWith('www.')) {
   var btnContainer = document.createElement('div')
-  btnContainer.style = "position: absolute; z-index: 99999; background: black;"
+  btnContainer.style = "position: fixed; z-index: 99999; background: black; top: 0; left: 0"
   var linkToOld = document.createElement('a')
   linkToOld.href = location.href.replace('www.', 'old.')
   linkToOld.innerText = 'Switch to old.'
   btnContainer.appendChild(linkToOld)
-  document.body.prepend(btnContainer)
+  document.body.append(btnContainer)
 }
 
 // replace www. with old. in all links on the page
