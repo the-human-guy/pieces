@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        New script reddit.com
 // @namespace   Violentmonkey Scripts
-// @match       https://www.reddit.com/*
+// @match       https://*.reddit.com/*
 // @grant       none
 // @version     1.0
 // @author      -
@@ -17,3 +17,12 @@ if (location.host.startsWith('www.')) {
   btnContainer.appendChild(linkToOld)
   document.body.prepend(btnContainer)
 }
+
+// replace www. with old. in all links on the page
+function oldifyLinks() {
+  document.querySelectorAll('a[href*="www.reddit"]').forEach(link => link.href = link.href.replace('www.', 'old.'))
+}
+
+oldifyLinks()
+
+setInterval(oldifyLinks, 7000)
