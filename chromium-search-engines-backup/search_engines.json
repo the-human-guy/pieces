@@ -20,6 +20,11 @@
     "url": "https://search.brave.com/search?q=%s"
   },
   {
+    "name": "brave images",
+    "keyword": "bimg",
+    "url": "https://search.brave.com/images?q=%s"
+  },
+  {
     "name": "brave reddit",
     "keyword": "bre",
     "url": "https://search.brave.com/search?q=site%3Areddit.com+%s"
@@ -53,6 +58,11 @@
     "name": "duckduckgo",
     "keyword": "d",
     "url": "https://duckduckgo.com/?q=%s"
+  },
+  {
+    "name": "duckduckgo images",
+    "keyword": "dimg",
+    "url": "https://duckduckgo.com/?q=%s&iax=images&ia=images"
   },
   {
     "name":"duck youtube",
