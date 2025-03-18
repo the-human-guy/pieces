@@ -150,6 +150,11 @@
     "url": "https://tronscan.org/#/transaction/%s"
   },
   {
+    "name": "coinmarketcap",
+    "keyword": "cmc",
+    "url": "https://coinmarketcap.com/community/search/top/?q=%s"
+  },
+  {
     "name": "blockchair",
     "keyword": "chair",
     "url": "https://blockchair.com/search?q=%s"
