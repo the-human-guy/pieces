@@ -1,18 +1,68 @@
 [
   {
-    "name":"wayback machine",
-    "keyword":"wayback",
-    "url":"https://web.archive.org/web/*/%s"
+    "name": "wayback machine",
+    "keyword": "wayback",
+    "url": "https://web.archive.org/web/*/%s"
   },
   {
-    "name":"soundcloud",
-    "keyword":"sound",
-    "url":"https://soundcloud.com/search?q=%s"
+    "name": "soundcloud",
+    "keyword": "sound",
+    "url": "https://soundcloud.com/search?q=%s"
   },
   {
     "name": "Wikipedia en",
     "keyword": "wiki",
     "url": "https://en.wikipedia.org/w/index.php?search=%s"
+  },
+  {
+    "name": "Iconify",
+    "keyword": "ico",
+    "url": "https://icon-sets.iconify.design/?query=%s"
+  },
+  {
+    "name": "StartPage",
+    "keyword": "s",
+    "url": "https://www.startpage.com/sp/search?lui=english&language=english&query=%s&cat=web&sc=9I9efqWcqrd120&t=device&abd=0"
+  },
+  {
+    "name": "StartPage reddit",
+    "keyword": "sre",
+    "url": "https://www.startpage.com/sp/search?query=%s+site%3Areddit.com&t=device&lui=english&sc=UHTlKyG4hOG520&cat=web&abd=0"
+  },
+  {
+    "name": "StartPage ycombinator",
+    "keyword": "syc",
+    "url": "https://www.startpage.com/sp/search?query=%s+site%3Aycombinator.com&t=device&lui=english&sc=KPNPtVNULNP020&cat=web&abd=0"
+  },
+  {
+    "name": "StartPage 4chan",
+    "keyword": "s4",
+    "url": "https://www.startpage.com/sp/search?query=%s+site%3A4chanarchives.com+OR+site%3A4chan.org&t=device&lui=english&sc=DU9bz6r5BJST20&cat=web&abd=0"
+  },
+  {
+    "name": "StartPage images",
+    "keyword": "simg",
+    "url": "https://www.startpage.com/sp/search?t=device&qadf=none&cat=images&language=english&lui=english&query=%s&sc=PgNSAkOIXLhX20"
+  },
+  {
+    "name": "Qwant",
+    "keyword": "q",
+    "url": "https://www.qwant.com/?hti=0&s=0&l=en&locale=en_US&q=%s&t=web"
+  },
+  {
+    "name": "Qwant reddit",
+    "keyword": "qre",
+    "url": "https://www.qwant.com/?l=en&t=web&q=%s+site%3Areddit.com&locale=en_US&s=0&hti=0"
+  },
+  {
+    "name": "Qwant ycombinator",
+    "keyword": "qyc",
+    "url": "https://www.qwant.com/?hti=0&s=0&l=en&locale=en_US&q=%s+site%3Aycombinator.com&t=web"
+  },
+  {
+    "name": "Qwant images",
+    "keyword": "qimg",
+    "url": "https://www.qwant.com/?hti=0&s=0&l=en&locale=en_US&q=%s&t=images"
   },
   {
     "name": "brave",
@@ -35,14 +85,14 @@
     "url": "https://search.brave.com/search?q=site%3Aycombinator.com+%s"
   },
   {
-    "name":"brave 4chan",
-    "keyword":"br4",
-    "url":"https://search.brave.com/search?q=%s+site%3A4chanarchives.com+OR+site%3A4chan.org&oq=%s+site%3A4chan.org&source=desktop"
+    "name": "brave 4chan",
+    "keyword": "b4",
+    "url": "https://search.brave.com/search?q=%s+site%3A4chanarchives.com+OR+site%3A4chan.org&oq=%s+site%3A4chan.org&source=desktop"
   },
   {
-    "name":"brave youtube",
-    "keyword":"bryou",
-    "url":"https://search.brave.com/search?q=%s+site%3Ayoutube.com&source=web"
+    "name": "brave youtube",
+    "keyword": "byou",
+    "url": "https://search.brave.com/search?q=%s+site%3Ayoutube.com&source=web"
   },
   {
     "name": "dexscreener",
@@ -70,9 +120,9 @@
     "url": "https://duckduckgo.com/?q=site%3Areddit.com+%s&ia=web"
   },
   {
-    "name":"duck youtube",
-    "keyword":"dyou",
-    "url":"https://duckduckgo.com/?q=%s+site%3Ayoutube.com&t=brave&ia=web"
+    "name": "duck youtube",
+    "keyword": "dyou",
+    "url": "https://duckduckgo.com/?q=%s+site%3Ayoutube.com&t=brave&ia=web"
   },
   {
     "name": "google",
@@ -95,14 +145,14 @@
     "url": "https://www.google.com/search?q=site:ycombinator.com+%s&safe=off&hl=en"
   },
   {
-    "name":"google 4chan",
-    "keyword":"g4",
-    "url":"https://www.google.com/search?q=%s+site%3A4chanarchives.com+OR+site%3A4chan.org&oq=%s+site%3A4chan.org"
+    "name": "google 4chan",
+    "keyword": "g4",
+    "url": "https://www.google.com/search?q=%s+site%3A4chanarchives.com+OR+site%3A4chan.org&oq=%s+site%3A4chan.org"
   },
   {
-    "name":"google youtube",
-    "keyword":"gyou",
-    "url":"https://www.google.com/search?q=%s+site%3Ayoutube.com&oq=%s+site%3Ayoutube.com"
+    "name": "google youtube",
+    "keyword": "gyou",
+    "url": "https://www.google.com/search?q=%s+site%3Ayoutube.com&oq=%s+site%3Ayoutube.com"
   },
   {
     "name": "google maps",
@@ -110,29 +160,49 @@
     "url": "https://www.google.com/maps/search/%s/?hl=en&safe=off"
   },
   {
+    "name": "Mojeek",
+    "keyword": "m",
+    "url": "https://www.mojeek.com/search?q=%s&arc=none&t=40&date=1&qsba=1&qss=Bing%2CBrave%2CDuckDuckGo%2CEcosia%2CGoogle%2CLilo%2CMetager%2CQwant%2CStartpage%2CSwisscows%2CYandex%2CYep%2CYou&rp_i=0"
+  },
+  {
+    "name": "Mojeek images",
+    "keyword": "mimg",
+    "url": "https://www.mojeek.com/search?q=%s&arc=none&t=40&date=1&qsba=1&qss=Bing%2CBrave%2CDuckDuckGo%2CEcosia%2CGoogle%2CLilo%2CMetager%2CQwant%2CStartpage%2CSwisscows%2CYandex%2CYep%2CYou&rp_i=0&fmt=images"
+  },
+  {
+    "name": "Mojeek reddit",
+    "keyword": "mre",
+    "url": "https://www.mojeek.com/search?q=%s+site%3Areddit.com&arc=none&t=40&date=1&qsba=1&qss=Bing%2CBrave%2CDuckDuckGo%2CEcosia%2CGoogle%2CLilo%2CMetager%2CQwant%2CStartpage%2CSwisscows%2CYandex%2CYep%2CYou&rp_i=0"
+  },
+  {
+    "name": "Mojeek ycombinator",
+    "keyword": "myc",
+    "url": "https://www.mojeek.com/search?q=%s+site%3Aycombinator.com&arc=none&t=40&date=1&qsba=1&qss=Bing%2CBrave%2CDuckDuckGo%2CEcosia%2CGoogle%2CLilo%2CMetager%2CQwant%2CStartpage%2CSwisscows%2CYandex%2CYep%2CYou&rp_i=0"
+  },
+  {
     "name": "rarbg",
     "keyword": "rarbg",
     "url": "https://www.rarbgproxy.to/search/?search=%s"
   },
   {
-    "name":"the pirate bay",
-    "keyword":"tpb",
-    "url":"https://tpb.party/search/%s"
+    "name": "the pirate bay",
+    "keyword": "tpb",
+    "url": "https://tpb.party/search/%s"
   },
   {
-    "name":"kick ass torrents",
-    "keyword":"kat",
-    "url":"https://kickasstorrents.to/search/%s/category/movies/?sortby=seeders&sort=desc"
+    "name": "kick ass torrents",
+    "keyword": "kat",
+    "url": "https://kickasstorrents.to/search/%s/category/movies/?sortby=seeders&sort=desc"
   },
   {
-    "name":"1337x",
-    "keyword":"1337",
-    "url":"https://www.1337xx.to/search/%s/1/"
+    "name": "1337x",
+    "keyword": "1337",
+    "url": "https://www.1337xx.to/search/%s/1/"
   },
   {
-    "name":"rutracker.org",
-    "keyword":"rutr",
-    "url":"https://rutracker.org/forum/tracker.php?nm=%s"
+    "name": "rutracker.org",
+    "keyword": "rutr",
+    "url": "https://rutracker.org/forum/tracker.php?nm=%s"
   },
   {
     "name": "google translate",
@@ -175,9 +245,9 @@
     "url": "https://www.imdb.com/find/?q=%s"
   },
   {
-    "name":"aur.archlinux.org",
-    "keyword":"aur",
-    "url":"https://aur.archlinux.org/packages/?O=0&K=%s"
+    "name": "aur.archlinux.org",
+    "keyword": "aur",
+    "url": "https://aur.archlinux.org/packages/?O=0&K=%s"
   },
   {
     "name": "yandex",
