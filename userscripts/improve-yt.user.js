@@ -17,7 +17,7 @@ const cuckedLinksSelector = 'a[href^="https://www.youtube.com/redirect?"]'
 const uncuckLinks = () => {
   // links that are leading to google's warning page "Are you sure you want to foolow this link etc etc"
   $$(cuckedLinksSelector).forEach((link, i) => {
-    link.href = link.innerText
+    link.href = new URLSearchParams(new URL(link.href).search).get('q')
     link.style.textShadow = '0 0 3px green'
     link.style.color = 'green'
   })
