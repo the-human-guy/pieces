@@ -125,6 +125,11 @@
     "url": "https://duckduckgo.com/?q=%s+site%3Ayoutube.com&t=brave&ia=web"
   },
   {
+    "name": "duck tailwind",
+    "keyword": "tw",
+    "url": "https://duckduckgo.com/?q=%s+site%3Atailwindcss.com%2Fdocs&ia=web"
+  },
+  {
     "name": "google",
     "keyword": "g",
     "url": "https://www.google.com/search?q=%s&safe=off&hl=en"
