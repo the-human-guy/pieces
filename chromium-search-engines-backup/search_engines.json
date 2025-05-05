@@ -107,27 +107,27 @@
   {
     "name": "duckduckgo",
     "keyword": "d",
-    "url": "https://duckduckgo.com/?q=%s"
+    "url": "https://duckduckgo.com/?q=%s&kp=-2"
   },
   {
     "name": "duckduckgo images",
     "keyword": "dimg",
-    "url": "https://duckduckgo.com/?q=%s&iax=images&ia=images"
+    "url": "https://duckduckgo.com/?q=%s&iax=images&ia=images&kp=-2"
   },
   {
     "name": "duckduckgo reddit",
     "keyword": "dre",
-    "url": "https://duckduckgo.com/?q=site%3Areddit.com+%s&ia=web"
+    "url": "https://duckduckgo.com/?q=site%3Areddit.com+%s&ia=web&kp=-2"
   },
   {
     "name": "duck youtube",
     "keyword": "dyou",
-    "url": "https://duckduckgo.com/?q=%s+site%3Ayoutube.com&t=brave&ia=web"
+    "url": "https://duckduckgo.com/?q=%s+site%3Ayoutube.com&t=brave&ia=web&kp=-2"
   },
   {
     "name": "duck tailwind",
     "keyword": "tw",
-    "url": "https://duckduckgo.com/?q=%s+site%3Atailwindcss.com%2Fdocs&ia=web"
+    "url": "https://duckduckgo.com/?q=%s+site%3Atailwindcss.com%2Fdocs&ia=web&kp=-2"
   },
   {
     "name": "google",
